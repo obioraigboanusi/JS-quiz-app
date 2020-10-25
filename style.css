@@ -6,8 +6,76 @@
 body{
   background-color: bisque;
   min-height: 100vh;
-  width: 100%;
   font-size: 16px;
   font-weight: normal;
-  font-size: 'gotham';
+  font-family: sans-serif;
+  position: relative;
+  line-height: 1.4;
+}
+.container{
+  width: 100%;
+}
+header{
+  min-height: 10vh;
+}
+header div{
+  background-color: rgb(130, 38, 148);
+  text-align: center;
+  color: aliceblue;
+  padding: 10px;
+}
+footer{
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: hsl(230, 96%, 9%);
+  color: gray;
+  min-height: 10vh;
+}
+.root{
+  display: flex;
+  flex-direction: column;
+  background-color:inherit;
+  min-height: 75vh;
+  padding:10px 5vw;
+}
+
+/* general  */
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.j-between{
+  justify-content: space-between;
+}
+
+
+button{
+  border-style: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 7px;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  cursor: pointer;
+  user-select: none;
+}
+li{
+  padding-right: 10px;
+}
+.success{
+  color: white;
+  background-color: hsl(235, 100%, 50%);
+}
+.danger{
+  color: aliceblue;
+  background-color: hsl(-5, 100%, 50%);
+}
+li{
+  margin-left: 3em;
 }
